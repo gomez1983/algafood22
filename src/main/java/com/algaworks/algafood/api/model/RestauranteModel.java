@@ -7,7 +7,7 @@ import lombok.Setter;
 
 @Setter
 @Getter
-public class RestauranteModel {
+public class RestauranteModel { //DTO
 
 	private Long id;
 	private String nome;
