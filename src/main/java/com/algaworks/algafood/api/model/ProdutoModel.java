@@ -14,4 +14,6 @@ public class ProdutoModel { //DTO
 	private String descricao;
 	private BigDecimal preco;
 	private Boolean ativo;
+	private Boolean aberto;
+	private EnderecoModel endereco;
 }
