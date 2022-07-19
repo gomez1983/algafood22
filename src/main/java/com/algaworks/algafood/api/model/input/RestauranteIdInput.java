@@ -7,8 +7,8 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class FormaPagamentoInput {
-
+public class RestauranteIdInput {
+	
 	@NotNull
 	private Long id;
 }
