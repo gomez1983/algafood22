@@ -259,7 +259,6 @@ public class ApiExceptionHandler extends ResponseEntityExceptionHandler {
 				.status(status.value())
 				.userMessage(MSG_ERRO_GENERICA_USUARIO_FINAL)
 				.build();
-			
 		} else if (body instanceof String) {
 			body = Problem.builder()
 				.timestamp(OffsetDateTime.now())
